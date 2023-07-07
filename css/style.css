@@ -1,4 +1,10 @@
 
+@media(max-width: 100px) {
+    header {
+        width: 100px;
+    }
+}
+
 .logo {
     display: flex;
 }
