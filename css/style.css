@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family:'Apollo';
+    src: url('../fonts/APOLLO.otf') format('opentype'), url('../fonts/APOLLOItalic.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+
 .logo {
     display: flex;
 }
@@ -22,7 +29,7 @@
 
 main {
     background-color: black;
-    padding-top: 1%;
+    padding-top: 1.5%;
     padding-right: 1.2%;
     padding-left: 1.2%;
     padding-bottom: 2%;
@@ -33,7 +40,7 @@ main {
     border-style: solid;
     border-color: black;
     border-width: thin;
-    border-radius: 2.8% 2.8% 0px 0px;
+    border-radius: 3% 3% 0px 0px;
 }
 
 ul {
@@ -48,9 +55,8 @@ li {
 
 a {
     font-size: 21px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-style: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
+    font-style: thin;
     text-decoration: none;
     color: black;
 }
@@ -77,8 +83,7 @@ a:hover {
 
 .campanha1, .campanha2, .campanha3, .campanha4 {
     background-color: white;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     height: 17vw;
     width: 17vw;
     border-style: solid;
@@ -103,8 +108,7 @@ a:hover {
 }
 
 .newsletterButton {
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-size: 22px;
     font-style: bold;
     color: black;
@@ -127,8 +131,7 @@ a:hover {
 .indexP {
     color: white;
     padding-bottom: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
     text-align: justify;
     margin-top: -1.5%;
@@ -142,8 +145,7 @@ a:hover {
 .editoraP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
     text-align: justify;
     font-size: 20px;
@@ -152,8 +154,7 @@ a:hover {
 .autorasP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
     text-align: justify;
     font-size: 20px;
@@ -162,9 +163,9 @@ a:hover {
 .faqP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
+    font-weight: thin;
     text-align: justify;
     font-size: 20px;
 }
@@ -172,8 +173,7 @@ a:hover {
 .contatoP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
     text-align: justify;
     font-size: 22px;
@@ -182,8 +182,7 @@ a:hover {
 .historiaP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
     text-align: justify;
     font-size: 20px;
@@ -192,10 +191,9 @@ a:hover {
 .comofuncionaP {
     color: white;
     margin-top: 2px;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-style: normal;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
 }
 
@@ -211,8 +209,7 @@ hr {
 .footerP {
     margin-left: 3.3%;
     margin-bottom: 2%;
-    font-family: 'GFS Neohellenic', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Apollo';
     font-size: 16px;
 }
 
