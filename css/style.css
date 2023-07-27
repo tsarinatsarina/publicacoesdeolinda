@@ -1,17 +1,12 @@
 
-@media(max-width: 100px) {
-    header {
-        width: 100px;
-    }
-}
+
 
 .logo {
     display: flex;
 }
 
 .logo img {
-    margin-bottom: 25px;
-    height: 350px;
+    height: 45%;
     width: auto;
     position: absolute;
     z-index: 0;
@@ -19,7 +14,7 @@
 
 .menu {
     margin-top: 22.5%;
-    margin-bottom: 18px;
+    margin-bottom: 18%;
     height: 350px;
     width: 220px;
     float: left;
@@ -29,18 +24,18 @@
 
 main {
     background-color: black;
-    padding-top: 18px;
-    padding-right: 12px;
-    padding-left: 12px;
-    padding-bottom: 2px;
+    padding-top: 1%;
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    padding-bottom: 2%;
     width: 80%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2.5%;
     margin-left: 16%;
     border-style: solid;
     border-color: black;
     border-width: thin;
-    border-radius: 22px 22px 0px 0px;
+    border-radius: 2.8% 2.8% 0px 0px;
 }
 
 ul {
@@ -67,9 +62,9 @@ a:hover {
 }
 
 .button1, .button2, .button3, .button4, .button5, .button6 {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 1.8%;
 }
 
 .campanha1, .campanha2, .campanha3, .campanha4 {
@@ -83,14 +78,14 @@ a:hover {
     display: flex;
     flex-direction: row;
     float: left;
-    margin-right: 12px;
-    margin-bottom: 24px;
+    margin-right: 1.2%;
+    margin-bottom: 2.4%;
     box-shadow: grey 2px 2px 3px 3px;
 }
 
 .campanha1 {
     margin-left:6%;
-    margin-right: 12px;
+    margin-right: 1.2%;
 }
 
 .clearfix::after {
@@ -118,8 +113,8 @@ a:hover {
 }
 
 .newsletter-text {
-    padding-top: 20px;
-    margin-top: 30px;
+    padding-top: 2%;
+    margin-top: 3%;
 
 }
 
@@ -130,7 +125,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     text-align: justify;
-    margin-top: -15px;
+    margin-top: -1.5%;
     font-size: 48px;
 }
 
@@ -140,7 +135,7 @@ a:hover {
 
 .editoraP {
     color: white;
-    margin-top: 2px;
+    margin-top: 2p;
     font-family: 'GFS Neohellenic', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
