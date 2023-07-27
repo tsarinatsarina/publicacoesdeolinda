@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:'Apollo';
-    src: url('../fonts/APOLLO.otf') format('opentype'), url('../fonts/APOLLOItalic.otf') format('opentype');
+    src: url('../fonts/APOLLO.otf') format('opentype');
     font-weight: light;
     font-style: normal;
 }
